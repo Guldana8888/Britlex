@@ -10,18 +10,34 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="nav">
-          <ul class="nav__menu">
-            <li class="item">
-              <img class="img" src="img/Logo.svg" alt="logo" />
+        <div class="header__inner">
+          <div class="logo">
+            <img class="img" src="img/Logo.svg" alt="logo" />
+          </div>
+          <button class="menu-toggler">
+            <img src="img/icons8-меню-50.png" alt="menuburger" />
+          </button>
+
+        <nav class="header__nav">
+          <ul class="menu menu-show">
+            
+            <li class="menu__item">
+              <a class="menu__link" href="#home">Home</a> 
             </li>
-            <li class="item">Home</li>
-            <li class="item">Skills</li>
-            <li class="item">About Us</li>
-            <li class="item">Pricing</li>
-            <li class="item">Contacts</li>
-            <li class="item">
-              <button>Let's Talk</button>
+            <li class="menu__item">
+              <a class="menu__link" href="#skills">Skills</a> 
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#about">About Us</a> 
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#pricing">Pricing</a> 
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Contacts</a> 
+            </li>
+            
+              <button class="header__button">Let's Talk</button>
             </li>
           </ul>
         </nav>
