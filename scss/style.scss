@@ -51,72 +51,72 @@ body {
   margin: 0 auto;
 }
 
-.header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1em 0;
-  margin: 53px 0;
-}
+// .header__inner {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding: 1em 0;
+//   margin: 53px 0;
+// }
 
-.logo {
-  width: 106px;
-  height: 54px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 54px;
-}
+// .logo {
+//   width: 106px;
+//   height: 54px;
+//   font-family: "Poppins";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 36px;
+//   line-height: 54px;
+// }
 
-.header__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-}
+// .header__link {
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   display: inline-block;
+// }
 
-.menu-toggler {
-  display: none;
-}
+// .menu-toggler {
+//   display: none;
+// }
 
-.menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .menu {
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.menu__item + .menu__item {
-  margin-left: 39px;
-}
+// .menu__item + .menu__item {
+//   margin-left: 39px;
+// }
 
-.menu__link {
-  text-decoration: none;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: var(--accent);
-}
+// .menu__link {
+//   text-decoration: none;
+//   font-family: "Poppins";
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 20px;
+//   line-height: 30px;
+//   color: var(--accent);
+// }
 
-.menu__toggler {
-  display: none;
-}
-.header__button {
-  margin-left: 244px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #000000;
-  padding: 17px 50px;
-  width: 220px;
-  background-color: transparent;
-  border: 2px solid black;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
+// .menu__toggler {
+//   display: none;
+// }
+// .header__button {
+//   margin-left: 244px;
+//   font-family: "Poppins";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 24px;
+//   line-height: 36px;
+//   color: #000000;
+//   padding: 17px 50px;
+//   width: 220px;
+//   background-color: transparent;
+//   border: 2px solid black;
+//   box-sizing: border-box;
+//   border-radius: 5px;
+// }
