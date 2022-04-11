@@ -78,10 +78,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 250px;
 }
 
 .menu__item + .menu__item {
-  margin-left: 39px;
+  margin-left: 40px;
 }
 
 .menu__link {
@@ -98,7 +99,7 @@ body {
 }
 
 .header__button {
-  margin-left: 244px;
+  margin-left: 150px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
