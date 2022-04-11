@@ -2,12 +2,14 @@
 
 @import "sections/header";
 @import "sections/about";
+@import "sections/contact";
+@import "sections/footer";
 
 :root {
   --accent: #000000;
   --cta: #263238;
   --accent-light: #8f95a5;
-  --pure-wite: #ffffff;
+  --pure-white: #ffffff;
 }
 
 html {
