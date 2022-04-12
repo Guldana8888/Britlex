@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,7 +44,8 @@
         </div>
       </div>
     </header>
-
+    
+    <main>
     <section class="skills" id="skills">
       <div class="container">
         <div class="skills__inner">
@@ -60,7 +62,7 @@
                 only
                 <span class="skills__wrapper-txt1-2">
                   Learn English online and improve your skills through our
-                  high-quality courses and resources – all designed for adult
+                  high-quality courses and resources - all designed for adult
                   language learners.
                 </span>
               </p>
@@ -121,13 +123,12 @@
       </div>
     </section>
 
-    <main>
       <section class="about">
         <div class="container">
           <div class="about__inner">
-            <div class="about__inner-txt">
-              <h2 class="about__inner-title">About Us</h2>
-              <p>
+            <div class="about__inner-column">
+              <h2 class="section-title">About Us</h2>
+              <p class="about__inner-txt">
                 The model offers a framework for discussing problems related to
                 the user's experience, as well as possible ways and means of
                 solving them. Application development begins at the top level
@@ -146,12 +147,12 @@
                 </li>
                 <li class="about__inner-item">
                   <h3>6</h3>
-                  <p>Foreign languages</p>
+                  <p>Foreing languages</p>
                 </li>
               </ul>
             </div>
-            <div class="about__inner-img">
-              <img src="img/AboutUs.png" alt="about-Britlex" />
+            <div class="about__inner-column">
+              <img class="about__inner-img" src="img/aboutUs.png" alt="about-Britlex" />
             </div>
           </div>
         </div>
@@ -159,25 +160,19 @@
       <section class="contact">
         <div class="container">
           <div class="contact__inner">
-            <div class="contact__inner-img">
-              <img src="img/Contact.png" alt="contact" />
+            <div class="contact__inner-column">
+              <img class="contact__inner-img" src="img/contact.png" alt="contact_us"/>
             </div>
-            <div class="contact__inner-form">
-              <h2 class="section-title">Contact Us</h2>
-              <p>
+            <div class="contact__inner-column">
+              <h2 class="section-title">Contact us</h2>
+              <p class="contact__inner-txt">
                 Discover your current English level by taking our free online
                 English test.Sign up to our newsletter for learning tips and
                 free resources
               </p>
-              <form method="POST">
-                <input
-                  class="form-email"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter Your E-mail"
-                />
-                <input type="submit" value="Subscribe" />
+              <form action="POST" class="contact__form">
+                <input class="contact-email" type="email" id="email" name="email" placeholder="Enter Your E-mail"/>
+                <button class="btn contact-btn">Subscribe</button>
               </form>
             </div>
           </div>
@@ -188,24 +183,27 @@
       <div class="container">
         <div class="footer-line"></div>
         <div class="footer__inner">
-          <div class="footer__inner-img">
-            <img src="img/Logo.svg" alt="logo" />
+          <div class="footer__inner-items">
+            <img class="footer__inner-logo" src="img/Logo.svg" alt="logo" />
           </div>
-          <ul>
-            <li class="footer__inner-list">
-              <a class="footer__inner-link" href="#">Terms and Conditions</a>
-            </li>
-            <li class="footer__inner-list">
-              <a class="footer__inner-link" href="#">Privacy Policy</a>
-            </li>
-            <li class="footer__inner-list">
-              <a class="footer__inner-link" href="#">Cookie Policy</a>
-            </li>
-          </ul>
+          <div class="footer__inner-items">
+            <ul>
+              <li class="footer__inner-list">
+                <a class="footer__inner-link" href="#">Terms and Conditions</a>
+              </li>
+              <li class="footer__inner-list">
+                <a class="footer__inner-link" href="#">Privacy Policy</a>
+              </li>
+              <li class="footer__inner-list">
+                <a class="footer__inner-link" href="#">Cookie Policy</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
 
     <script src="js/script.js"></script>
   </body>
+  
 </html>
