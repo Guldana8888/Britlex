@@ -6,6 +6,7 @@
 @import "sections/contact";
 @import "sections/footer";
 @import "sections/skills";
+@import "sections/pricing";
 
 :root {
   --accent: #000000;
@@ -27,25 +28,24 @@ html {
 //   max-width: 1240px;
 //   margin: 0 auto;
 // }
-@font-face {
-  font-family: "OS Poppins";
-  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
-    url("../fonts/Poppins-Medium.woff") format(woff);
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "OS Poppins";
-  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
-    url("../fonts/Poppins-Regular.woff") format(woff);
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "OS Poppins";
-  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
-    url("../fonts/Poppins-SemiBold.woff") format(woff);
-  font-weight: 600;
-  font-style: bold;
-}
-
+// @font-face {
+//   font-family: "OS Poppins";
+//   src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+//     url("../fonts/Poppins-Medium.woff") format(woff);
+//   font-weight: 500;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "OS Poppins";
+//   src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+//     url("../fonts/Poppins-Regular.woff") format(woff);
+//   font-weight: 400;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "OS Poppins";
+//   src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+//     url("../fonts/Poppins-SemiBold.woff") format(woff);
+//   font-weight: 600;
+//   font-style: bold;
+// }

@@ -1,67 +1,63 @@
+.main {
+  &__inner {
+    display: flex;
+  }
 
-.main{
-&__inner{    
-  display: flex;
+  &__inner-txt {
+    position: relative;
+    max-width: 665px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    color: var(--accent-light);
+    margin-top: -20px;
+    padding-bottom: 25px;
+    grid-area: t;
+  }
+  &__inner-title {
+    font-size: 64px;
+    font-style: bold;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: var(--accent);
+  }
 
-}
+  &__inner-svg {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 23%;
+    left: 98%;
+  }
 
-&__inner-txt {
-  position: relative;
-  max-width: 665px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 35px;
-  letter-spacing: 0.8px;
-  color: var(--accent-light);
-  margin-top: -20px;
-  padding-bottom: 25px;
-  grid-area: t;
-}
-&__inner-title{
+  &__inner-txt p {
+    margin-top: -10px;
+  }
 
-  font-size: 64px;
-  font-style: bold;
-  font-weight: 600;
-  line-height: 80px;
-  letter-spacing: 2px;
-  color: var(--accent);
-}
-
-&__inner-svg{
- position: absolute;
-  width: 110px;
-  height: 110px;
-  top: 23%;
-  left: 98%;
-}
-
-&__inner-txt p {
- margin-top: -10px;
-}
-
-&__inner-btn{
-  width: 438px;
-  height: 118px;
-  border-radius: 10px;
-  background-color: var(--accent); 
-  font-size: 36px;
-  text-decoration: none;
-  padding: 40px 120px;
-  color: var(--pure-white);
-  -webkit-transition-duration: 0.4s; 
+  &__inner-btn {
+    width: 438px;
+    height: 118px;
+    border-radius: 10px;
+    background-color: var(--accent);
+    font-size: 36px;
+    text-decoration: none;
+    padding: 40px 120px;
+    color: var(--pure-white);
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
-}
-  
-&__inner-btn:hover{
-  background-color: var(--pure-white);
-  color: var(--accent);
-}
+  }
 
-&__inner-img {
-  margin-top: -15px;
-margin-left: 250px;
-}
-}
+  &__inner-btn:hover {
+    background-color: var(--pure-white);
+    color: var(--accent);
+  }
 
+  &__inner-img {
+    margin-top: -15px;
+    margin-left: 250px;
+  }
+}
