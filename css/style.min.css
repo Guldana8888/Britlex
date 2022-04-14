@@ -33,6 +33,34 @@ body {
   text-transform: capitalize;
 }
 
+.menu-toggler {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu__link {
+    display: block;
+    border-bottom: 1px dotted white;
+    border-radius: 0;
+  }
+
+  .menu__item + .menu__item {
+    margin-left: 0;
+  }
+
+  .menu-toggler {
+    display: block;
+    margin-left: auto;
+  }
+
+  .menu-show {
+    display: block;
+  }
+}
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
