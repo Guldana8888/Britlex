@@ -5,16 +5,16 @@ body {
 }
   
 .container {
-    width: 1440px;
+    max-width: 1338px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 .btn {
     width: 218px;
     height: 60px;
     padding: 15px 52px;
     background-color: var(--cta);
-    color: var(--pure-wite);
+    color: var(--pure-white);
     border-radius: 5px;
     font-style: normal;
     font-weight: 500;
@@ -28,4 +28,5 @@ body {
     font-size: 48px;
     line-height: 80px;
     color: var(-accent);
+    text-transform: capitalize;
 }

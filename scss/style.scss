@@ -23,6 +23,10 @@ html {
 *::after {
   box-sizing: inherit;
 }
+// .container {
+//   max-width: 1240px;
+//   margin: 0 auto;
+// }
 @font-face {
   font-family: "OS Poppins";
   src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
@@ -43,16 +47,6 @@ html {
     url("../fonts/Poppins-SemiBold.woff") format(woff);
   font-weight: 600;
   font-style: bold;
-}
-
-body {
-  font-family: "OS Poppins", sans-serif;
-  margin: 0;
-}
-
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
 }
 
 // .header__inner {
